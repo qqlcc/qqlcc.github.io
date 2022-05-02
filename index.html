@@ -212,7 +212,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-05-02 22:37:11" itemprop="dateModified" datetime="2022-05-02T22:37:11+08:00">2022-05-02</time>
+      <time title="修改时间：2022-05-02 22:51:47" itemprop="dateModified" datetime="2022-05-02T22:51:47+08:00">2022-05-02</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -316,7 +316,8 @@
 <p>对于使用multipass的，可以使用vm ip进行访问</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl 192.168.64.2:8080</span><br><span class="line">curl 192.168.64.4:8080</span><br></pre></td></tr></table></figure>
 
-
+<p>podman的命令大部分与docker类似，可以配置一个<code>alias</code></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;alias docker=&quot;podman&quot;&#x27;</span> &gt;&gt; .zshrc</span><br><span class="line"><span class="built_in">source</span> .zshrc</span><br><span class="line">docker version</span><br></pre></td></tr></table></figure>
 
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p>[1] <a target="_blank" rel="noopener" href="https://multipass.run/docs/using-a-custom-dns">multipass using a custom dns</a><br>[2] <a target="_blank" rel="noopener" href="https://multipass.run/docs/troubleshooting-networking-on-macos">multipass troubleshooting networking on macos</a><br>[3] <a target="_blank" rel="noopener" href="https://github.com/containers/image/blob/main/docs/containers-registries.conf.d.5.md">podman containers registries.conf.d</a><br>[4] <a target="_blank" rel="noopener" href="https://github.com/containers/podman/blob/main/docs/tutorials/mac_experimental.md">podman mac experimental</a><br>[5] <a target="_blank" rel="noopener" href="https://github.com/containers/podman/blob/main/docs/tutorials/podman_tutorial.md">podman tutorial</a><br>[6] <a target="_blank" rel="noopener" href="https://wiki.debian.org/DebianExperimental">debian experimental</a></p>
 
