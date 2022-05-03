@@ -83,13 +83,6 @@
 
   
   <url>
-    <loc>https://qqlcc.github.io/tags/logrotate/</loc>
-    <lastmod>2022-05-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://qqlcc.github.io/tags/docker/</loc>
     <lastmod>2022-05-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -104,21 +97,7 @@
   </url>
   
   <url>
-    <loc>https://qqlcc.github.io/tags/maven/</loc>
-    <lastmod>2022-05-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://qqlcc.github.io/tags/etcdctl/</loc>
-    <lastmod>2022-05-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://qqlcc.github.io/tags/sphinx-doc/</loc>
     <lastmod>2022-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -133,6 +112,27 @@
   
   <url>
     <loc>https://qqlcc.github.io/tags/fedora/</loc>
+    <lastmod>2022-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://qqlcc.github.io/tags/logrotate/</loc>
+    <lastmod>2022-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://qqlcc.github.io/tags/maven/</loc>
+    <lastmod>2022-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://qqlcc.github.io/tags/sphinx-doc/</loc>
     <lastmod>2022-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
